@@ -1,32 +1,32 @@
 $(document).ready(function() {
 	
-	$(".submenu").hide()
+	$(".submenu1").hide()
+	$(".submenu2").hide()
 
-	$(".menu").hover(function(){
-    $(".submenu").show();
+
+	$(".menu1").hover(function(){
+    $(".submenu1").show();
     }, function(){
-    $(".submenu").hide();
+    $(".submenu1").hide();
 });
-	$(".submenu").hover(function(){
-    $(".submenu").show();
+	$(".submenu1").hover(function(){
+    $(".submenu1").show();
     }, function(){
-    $(".submenu").hide();
+    $(".submenu1").hide();
 });
 
-// $(".menu").mouseEnter(function() {
-// 	$(".submenu").show();
-// });
+	$(".submenu2").hide()
 
-	// $(".menu").mouseEnter(".submenu").show();
-	// $(".menu").mouseLeave(".submenu").hide();
+	$(".menu2").hover(function(){
+    $(".submenu2").show();
+    }, function(){
+    $(".submenu2").hide();
+});
+	$(".submenu2").hover(function(){
+    $(".submenu2").show();
+    }, function(){
+    $(".submenu2").hide();
+});
 
-	// $(".menu").hover(function() {
-	// 	$(".submenu").fadeIn(100);
-	// 	$(".submenu").fadeOut(100);
-	// });
-	
-
-	// $("#menu").hover(function(){
-	// 	$(".invisible").toggleClass(".submenu");
 
 });

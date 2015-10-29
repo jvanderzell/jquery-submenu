@@ -4,7 +4,16 @@ a {
 	text-decoration: none;
 }
 
-li.menu {
+li.menu1 {
+	padding: 5px;
+	background-color: #F7E5E5;
+	border-radius: 5px;
+	border:#FF6918 solid 2px;
+	font-color:#FF6918;
+	list-style: none;
+}
+
+li.menu2 {
 	padding: 5px;
 	background-color: #F7E5E5;
 	border-radius: 5px;
@@ -14,16 +23,26 @@ li.menu {
 }
 
 
-
-
-ul.submenu {
+ul.submenu1 {
 	padding: 5px;
-	background-color: #F3ECEC;
+	background-color: #F7E5E5;
+	font-color: #FF6918;
 	border-radius: 5px;
 	list-style: none;
-	position: absolute;
-	left: 2;
-	top: 15.5%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+ul.submenu2 {
+	padding: 5px;
+	background-color: #F7E5E5;
+	font-color: #FF6918;
+	border-radius: 5px;
+	list-style: none;
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 
 .sidebyside{
