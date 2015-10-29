@@ -1,0 +1,20 @@
+#cheat{
+	background-color: lime;
+	border-bottom: double navy 3px;
+	width: 50%;
+	text-align: center;
+
+}
+
+.happy{
+	color: orange;
+	font-size: 24px;
+	font: Times 
+
+
+}
+
+.sad{
+	color:maroon;
+	font-size: 20px;
+}
