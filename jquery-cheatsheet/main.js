@@ -25,15 +25,19 @@ $("p").slideDown(2000);
 //innerhtml
 $(".change").html("I'm changed!");
 
+
+//slide toggle
 	$(".click").click(function() {
 		$("#cheat").slideToggle();
 	
 });
 
+//toggle class
 	$(".new").click(function() {
 		$(".happy").toggleClass("sad");
 });
 
+//animating text
 var animateMe = function(){   
 	$(".sad").animate( {opacity: .2} ) } 
 
